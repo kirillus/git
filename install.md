@@ -29,5 +29,14 @@ If you see a wrong version, maybe git pointed to old version
 echo "alias git='/usr/local/bin/git'" >> ~/.zprofile && source ~/.zprofile
 ```
 
-
 **Git is ready to use.**
+
+
+## Configure your git name and email
+Your name and email will be assosicated with *any* commits
+```
+git config --global user.name "Kirill T"
+git config --global user.email "kirill@git.com"
+```
+
+
